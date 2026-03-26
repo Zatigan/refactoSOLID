@@ -2,23 +2,23 @@ package Models;
 
 public class Order {
 
- private CustumerTypes customerType;
+ private CustomerTypes customerType;
  private double invoice;
  private int itemQuantity;
  private boolean isShippedAbroad;
 
- public Order(CustumerTypes customerType, double invoice, int itemQuantity, boolean isShippedAbroad) {
+ public Order(CustomerTypes customerType, double invoice, int itemQuantity, boolean isShippedAbroad) {
   this.customerType = customerType;
   this.invoice = invoice;
   this.itemQuantity = itemQuantity;
   this.isShippedAbroad = isShippedAbroad;
  }
 
- public CustumerTypes getCustomerType() {
+ public CustomerTypes getCustomerType() {
   return customerType;
  }
 
- public void setCustomerType(CustumerTypes customerType) {
+ public void setCustomerType(CustomerTypes customerType) {
   this.customerType = customerType;
  }
 
@@ -45,7 +45,5 @@ public class Order {
  public void setShippedAbroad(boolean isShippedAbroad) {
   this.isShippedAbroad = isShippedAbroad;
  }
-
- 
 
 }

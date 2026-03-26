@@ -1,5 +1,5 @@
 package Models;
 
-public enum CustumerTypes {
+public enum CustomerTypes {
     VIP, NORMAL, NEW;
 }
