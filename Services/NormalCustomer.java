@@ -9,7 +9,7 @@ public class NormalCustomer implements State {
   if (bigBill) {
    return DiscountValues.NORMAL_BIGBILL_DISCOUNT;
   } else {
-   return DiscountValues.NORMAL_DISCOUNT;
+   return DiscountValues.DEFAULT_DISCOUNT;
   }
  }
 }
